@@ -1,11 +1,18 @@
 import React from 'react'
+import '@fortawesome/fontawesome-free/js/fontawesome';
+import '@fortawesome/fontawesome-free/js/solid';
+import '@fortawesome/fontawesome-free/js/regular';
+import '@fortawesome/fontawesome-free/js/brands';
 
 const Footer = () => {
-  return (
+    return (
     <div>
         <div className='grid gap-4 grid-cols-4 py-5 bg-gray-200'>
             <div className='text-center'>
-                Logo goes here...
+            <a href='#'><i class="fa-brands fa-instagram fa-2x mx-2"></i></a> 
+            <a href='#'><i class="fa-brands fa-github fa-2x mx-2"></i></a>
+            <a href='#'><i class="fa-brands fa-facebook fa-2x mx-2"></i></a>
+            <a href='#'><i class="fa-brands fa-twitter fa-2x mx-2"></i></a>
             </div>
             <div className=''>
                 <h1 className=''>About</h1>
